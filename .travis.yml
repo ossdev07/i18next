@@ -2,5 +2,7 @@ language: node_js
 node_js:
   - "6.2"
 before_script:
+  - apt-get install chromium-browser
+  - export CHROME_BIN=/usr/bin/chromium-browser
   - npm install -g gulp
   - npm install -g karma
