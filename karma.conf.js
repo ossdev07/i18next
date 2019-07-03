@@ -22,7 +22,11 @@ module.exports = function(karma) {
     },
 
     browsers: ['HeadlessChrome'],
-    customLaunchers: {
+    
+	  
+	  
+	  
+	  customLaunchers: {
       HeadlessChrome: {
         base: 'ChromeHeadless',
         flags: ['—no-sandbox'],
